@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+.section-main {
+  background-image: url("../images/cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+
+  .logo {
+    font-family: "Inika", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 0.64;
+    width: 78px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
