@@ -23,3 +23,20 @@ a {
     flex-wrap: wrap;
   }
 }
+
+.facilities {
+  background-color: #F3F3F3;
+  text-align: center;
+
+  img {
+    border-radius: 42px;
+    object-position: center;
+    object-fit: cover;
+  }
+
+  .title {
+    font-size: 32px;
+    bottom: 30px;
+
+  }
+}
