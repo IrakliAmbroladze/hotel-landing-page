@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+.logo {
+  font-family: "Inika", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 0.64;
+  width: 78px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-main {
+  background-image: url("../images/cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+
+
+}
+
+.facilities {
+  background-color: #F3F3F3;
+  text-align: center;
+
+  img {
+    border-radius: 42px;
+    object-position: center;
+    object-fit: cover;
+  }
+
+  .title {
+    font-size: 32px;
+    bottom: 30px;
+
+  }
+}
+
+.card-img-top {
+  max-width: 360px;
+  height: 280px;
+  object-position: center;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 20px;
+}
+
+footer {
+  min-height: 520px;
+  background-color: #1E1E1E;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
