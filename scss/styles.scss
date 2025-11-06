@@ -5,6 +5,17 @@ a {
   color: inherit
 }
 
+.logo {
+  font-family: "Inika", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 0.64;
+  width: 78px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .section-main {
   background-image: url("../images/cover.jpg");
   background-position: center;
@@ -12,16 +23,7 @@ a {
   background-size: cover;
   height: 500px;
 
-  .logo {
-    font-family: "Inika", serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 32px;
-    line-height: 0.64;
-    width: 78px;
-    display: flex;
-    flex-wrap: wrap;
-  }
+
 }
 
 .facilities {
@@ -42,10 +44,19 @@ a {
 }
 
 .card-img-top {
-  width: 360px;
+  max-width: 360px;
   height: 280px;
   object-position: center;
   object-fit: cover;
   margin: auto;
   border-radius: 20px;
+}
+
+footer {
+  min-height: 520px;
+  background-color: #1E1E1E;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
